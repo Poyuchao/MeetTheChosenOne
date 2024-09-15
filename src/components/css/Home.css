@@ -30,7 +30,7 @@
     bottom:0px;
     left: 50%;
     transform: translateX(-50%);
-    width: 1460px; 
+    width: 1440px; 
     height: 355px;
     background-color: #202020e9;
     border-radius: 50% 50% 0 0; 
@@ -79,6 +79,7 @@
     position:absolute;
     bottom:0px;
     z-index: -7;
+    stroke-width: 1px;
 }
 
 
