@@ -1,0 +1,113 @@
+.navbar{
+    width:95%;
+    height:48px;
+    z-index:1000;
+    align-items: center;
+}   
+
+
+.navbar-container{
+    padding:40px 50px;
+    display:flex;
+    justify-content:space-between;
+}
+
+
+.navbar-logo{
+    width:176px;
+    display:flex;
+    justify-content:center;
+    text-decoration: none;
+    font-family: "Secular One";
+    align-items: center;
+}
+
+
+.logo-image{
+    width: 49px;
+    height: 48px;
+    flex-shrink: 0;
+}
+
+.logo-text{
+    width:127px;
+    height:44px;
+    color: #000;
+    font-family: "Secular One";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    list-style-type: none; 
+    align-items: center;
+    width: 50%;
+}
+
+.nav-menu li a {
+    text-decoration: none;  
+    color: #202020;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position:relative;
+}
+
+
+.nav-menu li a::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 0; /* Start with no width */
+    height: 2px;
+    background: orange;
+    bottom: 0; /* Position the underline at the bottom of the text */
+    left: 0;   /* Start from the left */
+    transition: width 0.3s ease; /* Smooth transition of the underline */
+}
+
+.nav-menu li a:hover::after {
+    width: 100%; 
+}
+
+.nav-menu li a:hover,
+.nav-menu li a:focus,
+.nav-menu li a:active {
+    text-decoration: none; 
+}
+
+.get-started-btn{
+    width: 162px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 34px;
+    background: #131416;
+    color: #fff;
+    border: none;
+    cursor: pointer; 
+    transition: background 0.3s, color 0.3s;
+}
+
+.get-started-btn:hover {
+    background: #fff; 
+    color: black; 
+}
+
+.started-btn-text{
+    width:86px;
+    height:22px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center; 
+}
+

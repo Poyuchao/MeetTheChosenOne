@@ -1,0 +1,225 @@
+.home-container {
+    position: relative;
+    width: 1600px; 
+    height: 1200px; 
+    flex-shrink: 0; 
+    background-color: #D1DADB; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:87px 80px;
+    
+}
+
+
+.home-inner-container {
+    display:flex;
+    flex-direction:column;
+    width: 1439px; 
+    height: 1026px; 
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: linear-gradient(104deg, #E6EFEE 3.76%, #E2E9DF 93.56%);
+    z-index: 1;
+    position: relative;
+}
+
+.home-inner-container::before {
+    content: '';
+    position: absolute;
+    bottom:0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1460px; 
+    height: 355px;
+    background-color: #202020e9;
+    border-radius: 50% 50% 0 0; 
+    z-index: -8; 
+}
+
+.ellipse-wrapper {
+    position: absolute; /* Position relative to the container */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%; 
+    overflow: hidden; /* Hide the overflowing part of the ellipse */
+    z-index: -16; /* Ensure it's behind other content */
+}
+
+
+.rotated-ellipse-orange {
+    width: 1552.692px;
+    height: 1031.373px;
+    transform: rotate(-27.084deg); 
+    flex-shrink: 0; 
+    border-radius: 50%; 
+    border: 1px solid #FFAA85; 
+    position: absolute; 
+    bottom:40px;
+    right:-80px;
+
+    z-index: -7;
+}
+
+.rotated-ellipse-green {
+    width: 1330.121px;
+    height: 867.497px;
+    transform: rotate(-27.084deg);
+    flex-shrink: 0;
+    border-radius: 60%;
+    border: 1px solid #73E4A0;
+    position: absolute; 
+    right:80px;
+    top:80px;
+    z-index: -7;
+}
+
+.rotated-ellipse-gray{
+    position:absolute;
+    bottom:0px;
+    z-index: -7;
+}
+
+
+.title-container{
+    padding:51px 233px 0px  234px; /* top right bottom left */
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    z-index: 3;
+    position: relative;
+}
+
+.Love-emoji{
+    width:300px;
+    height:300px;
+    position: absolute;
+    right:140px;
+    top: 100px;
+    animation: pulse 1s infinite; 
+    transition: transform 0.3s ease;
+}
+
+.home-heading-1, .home-heading-2{
+    margin: 0; 
+}
+
+.home-heading-1{
+    color: #4FC27E;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.home-heading-2{
+    color: #202020;
+    font-family: Manrope;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+
+.hero-image-container{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    z-index: 2;
+}
+
+.Hi{
+    width:188px;
+    height:188px;
+    position: absolute;
+    left:256px;
+    top: 20px;
+    transition: transform 0.5s ease-in-out; 
+}
+
+.Hi:hover {
+    transform: scale(1.2); 
+}
+
+.Group-2{
+    width:320px;
+    height:349px;
+    position: absolute;
+    left:126px;
+    top: 200px;
+}
+
+.shape-line{
+    width:250px;
+    height:240px;
+    position: absolute;
+    right:160px;
+    top: 30px;
+    transition: transform 0.3s ease;
+}
+
+.Group-4{
+    width:388px;
+    height:244px;
+    position: absolute;
+    right:160px;
+    top: 300px;
+    transition: transform 0.3s ease;
+    z-index:10;
+}
+
+
+
+.hero-image-container::before{
+    content:'';
+    position: absolute;
+    width: 500px; 
+    height: 500px;
+    bottom:450px;
+    background-color: rgb(255, 200, 0); 
+    border-radius: 50%; /* This makes the element a circle */
+    z-index: 3; /* Ensure the circle is behind the image */
+}
+
+.hero-image{
+    position: relative; /* To use top positioning */
+    bottom:95px;
+    align-items: center;
+    width:630px;
+    height:829px;
+    z-index:5;
+}
+
+/* Gray circle style */
+.gray-circle {
+    width: 100px; 
+    height: 100px;
+    background-color: #d3d3d3a4; 
+    border-radius: 60% 40% 60% 40%; 
+    position: absolute;
+    top: 65%; /* Adjust the position relative to hero image */
+    right: 410px; /* Adjust to place it next to the hero image */
+    transform: translateY(-50%); /* Center it vertically */
+    z-index: 1; /* Ensure it's behind the hero image */
+}
+
+
+/*animation*/
+
+@keyframes pulse {
+    0% {
+      transform: scale(1); 
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1); 
+    }
+  }
+
+
