@@ -92,13 +92,17 @@
     color: #fff;
     border: none;
     cursor: pointer; 
-    transition: background 0.3s, color 0.3s;
+    transition: transform 0.5s ease-in-out; 
 }
 
 .get-started-btn:hover {
+    transform: scale(1.1); 
+}
+
+/* .get-started-btn:hover {
     background: #fff; 
     color: black; 
-}
+} */
 
 .started-btn-text{
     width:86px;
