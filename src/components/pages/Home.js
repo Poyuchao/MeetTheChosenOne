@@ -11,18 +11,18 @@ function Home() {
         <div className="home-inner-container">
           <Navbar />
             <div className="title-container">
-              <img src="/img/love-emoji.png" alt="love-emoji" className="Love-emoji"></img>
+              <img src={process.env.PUBLIC_URL+"/img/love-emoji.png"} alt="love-emoji" className="Love-emoji"></img>
               <h1 className="home-heading-1">Meet the</h1>
               <h1 className="home-heading-2">Chosen one</h1>
              
             </div>
             
             <div className="hero-image-container">
-              <img src="/img/shape-line.png" alt="shape-line" className="shape-line"></img>
-              <img src="/img/Group-4.png" alt="Group-4" className="Group-4"></img>
-              <img src="/img/hi.png" alt="hi" className="Hi"></img>   
-              <img src="/img/Group-2.png" alt="Group-2" className="Group-2"></img>   
-              <img src="/img/photo-beautiful-afro-american-woman.png" alt="woman" className="hero-image" />
+              <img src={process.env.PUBLIC_URL+"/img/shape-line.png"} alt="shape-line" className="shape-line"></img>
+              <img src={process.env.PUBLIC_URL+"/img/Group-4.png"} alt="Group-4" className="Group-4"></img>
+              <img src={process.env.PUBLIC_URL+"/img/hi.png"} alt="hi" className="Hi"></img>   
+              <img src={process.env.PUBLIC_URL+"/img/Group-2.png"} alt="Group-2" className="Group-2"></img>   
+              <img src={process.env.PUBLIC_URL+"/img/photo-beautiful-afro-american-woman.png"} alt="woman" className="hero-image" />
               <div class="gray-circle"></div>
             </div>
             <div class="ellipse-wrapper">

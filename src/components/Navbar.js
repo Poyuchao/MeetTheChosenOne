@@ -8,7 +8,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">  
                     <Link to="/" className="navbar-logo">
-                        <img src="/img/logo.png" alt="Logo" className="logo-image" /> 
+                        <img src={process.env.PUBLIC_URL+"/img/logo.png"} alt="Logo" className="logo-image" /> 
                         <span className="logo-text">Let’sTalk</span>
                     </Link>
                     <ul className="nav-menu">
