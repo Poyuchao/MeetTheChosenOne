@@ -2,7 +2,7 @@
 
 ![Project Logo](https://Poyuchao.github.io/MeetTheChosenOne/img/logo.png)
 
-![Website Layout](https://Poyuchao.github.io/MeetTheChosenOne/img/layout.png)
+![Website Layout](https://Poyuchao.github.io/MeetTheChosenOne/img/Overall-website-layout.png)
 
 ## Description
 
