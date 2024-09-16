@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/MeetTheChosenOne/static/css/main.e35377cf.css",
-    "main.js": "/MeetTheChosenOne/static/js/main.9afc85ef.js",
+    "main.js": "/MeetTheChosenOne/static/js/main.83ab7568.js",
     "index.html": "/MeetTheChosenOne/index.html",
     "main.e35377cf.css.map": "/MeetTheChosenOne/static/css/main.e35377cf.css.map",
-    "main.9afc85ef.js.map": "/MeetTheChosenOne/static/js/main.9afc85ef.js.map"
+    "main.83ab7568.js.map": "/MeetTheChosenOne/static/js/main.83ab7568.js.map"
   },
   "entrypoints": [
     "static/css/main.e35377cf.css",
-    "static/js/main.9afc85ef.js"
+    "static/js/main.83ab7568.js"
   ]
 }
