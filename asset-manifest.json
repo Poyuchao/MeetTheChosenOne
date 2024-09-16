@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MeetTheChosenOne/static/css/main.e35377cf.css",
+    "main.js": "/MeetTheChosenOne/static/js/main.9afc85ef.js",
+    "index.html": "/MeetTheChosenOne/index.html",
+    "main.e35377cf.css.map": "/MeetTheChosenOne/static/css/main.e35377cf.css.map",
+    "main.9afc85ef.js.map": "/MeetTheChosenOne/static/js/main.9afc85ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e35377cf.css",
+    "static/js/main.9afc85ef.js"
+  ]
+}
