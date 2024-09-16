@@ -2,6 +2,8 @@
 
 ![Project Logo](https://Poyuchao.github.io/MeetTheChosenOne/img/logo.png)
 
+![Website Layout](https://Poyuchao.github.io/MeetTheChosenOne/img/layout.png)
+
 ## Description
 
 **Meet the Chosen One** is a modern dating website built using React and hosted on GitHub Pages. The site features a dynamic layout, engaging visuals, and interactive elements that enhance the user experience. This repository contains all the source code and assets for the project.
